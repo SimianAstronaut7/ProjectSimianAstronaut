@@ -27,10 +27,11 @@ The current workflow is heavily Chrome based.
 ## Custom "Search Engine" Setup
 
 You can access your defined search engines [here](chrome://settings/searchEngines?search=search+engines). These allow for access via a keyword and then substitute the given search criteria into a URL. Here's an example. We've defined YahooFinance as having a keyword of yf:
-![](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/blob/main/img/SearchEngine_YahooFinance_Definition.PNG =250x)
+<img src="https://github.com/SimianAstronaut7/Project_Simian_Astronaut/blob/main/img/SearchEngine_YahooFinance_Definition.PNG" width="650"/>
+
 
 Now we can quickly get to YahooFinance for any ticker. 
-![](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/blob/main/gif/SearchEngine_HotKey.gif =250x)
+<img src="https://github.com/SimianAstronaut7/Project_Simian_Astronaut/blob/main/gif/SearchEngine_HotKey.gif" width="650"/>
 
 
 ***TODO***: This is a good workflow, but could be better. 
