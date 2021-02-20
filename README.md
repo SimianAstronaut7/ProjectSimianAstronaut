@@ -34,13 +34,11 @@ Now we can quickly get to YahooFinance for any ticker.
 <img src="https://github.com/SimianAstronaut7/Project_Simian_Astronaut/blob/main/gif/SearchEngine_HotKey.gif" width="650"/>
 
 
-***TODO***: This is a good workflow, but could be better. 
-* Lacks a way to open a bunch of tabs w/ some parameter (like Ticker) substituted in. 
-* Bookmarklets (JavaScript in Bookmarks) + Search Engines using the bookmarklet code could give a quick way to do something like. But they get ugly (lots of escaping, single line, etc.). https://gist.github.com/uknj/266467926bb6bbf3dbb2c6e57d1c19d3 -> https://caiorss.github.io/bookmarklet-maker/ -> Search Engine definition
-* I think the best way forward is probably an Extension for each keyword (https://developer.chrome.com/docs/extensions/reference/omnibox/). Would allow for arbitrary code execution based on a keyword. Nice for situations like say "hype", where we might want to put in the ticker, but have some translation to the actual company website via a YahooFinance lookup for something like an Alexa Rank. 
+***TODO***: Issue #2 details shortcomings of this approach. 
 
+### Import/Export
+See the [instructions](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/tree/main/SearchEngines)
 
-Import and export is a bit involved, but not terrible. 
 
 ***TODO*** Add details. 
 
