@@ -1,0 +1,87 @@
+[
+    {
+        "name": "ETF Lookup",
+        "keyword": "etf",
+        "url": "https://www.etf.com/stock/%s"
+    },
+    {
+        "name": "Market Chameleon",
+        "keyword": "cham",
+        "url": "https://marketchameleon.com/Overview/%s/Summary/"
+    },
+    {
+        "name": "Market Chameleon IV",
+        "keyword": "iv",
+        "url": "https://marketchameleon.com/Overview/%s/Summary/"
+    },
+    {
+        "name": "Market Chameleon Pricing History",
+        "keyword": "hist",
+        "url": "https://marketchameleon.com/Overview/%s/DailyHistory/"
+    },
+    {
+        "name": "Market Chameleon VWAP",
+        "keyword": "vwap",
+        "url": "https://marketchameleon.com/Overview/%s/VwapTable/TradingHours"
+    },
+    {
+        "name": "openinsider.com",
+        "keyword": "oi",
+        "url": "http://openinsider.com/search?q=%s"
+    },
+    {
+        "name": "Press Releases",
+        "keyword": "pr",
+        "url": "https://www.google.com/search?q=%s+press+releases+investor+relations"
+    },
+    {
+        "name": "SEC All Filings",
+        "keyword": "sec",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=%s&owner=exclude"
+    },
+    {
+        "name": "Seeking Alpha",
+        "keyword": "sa",
+        "url": "https://static.seekingalpha.com/javascripts/seeking_google.html?query=%s"
+    },
+    {
+        "name": "SeekingAlpha Transcripts",
+        "keyword": "sat",
+        "url": "https://seekingalpha.com/symbol/%s/transcripts"
+    },
+    {
+        "name": "YahooFinance",
+        "keyword": "yf",
+        "url": "https://finance.yahoo.com/quote/%s"
+    },
+    {
+        "name": "YouTube",
+        "keyword": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch"
+    },
+    {
+        "name": "YouTube",
+        "keyword": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch"
+    },
+    {
+        "name": "YouTube",
+        "keyword": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch"
+    },
+    {
+        "name": "YouTube",
+        "keyword": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch"
+    },
+    {
+        "name": "YouTube",
+        "keyword": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch"
+    },
+    {
+        "name": "YouTube",
+        "keyword": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch"
+    }
+]
