@@ -6,6 +6,8 @@ This project is heavily influenced by [RoaringKitty](https://www.youtube.com/c/R
 
 The current workflow is heavily Chrome based. 
 
+Please see the [FAQ](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/wiki/FAQ) if you have additional questions.
+
 ## Recommended Chrome Extensions
 
 [Bypass-Paywalls](https://github.com/iamadamdev/bypass-paywalls-chrome)
@@ -40,8 +42,6 @@ Now we can quickly get to YahooFinance for any ticker.
 ### Import/Export
 See the [instructions](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/tree/main/SearchEngines)
 
-
-***TODO*** Add details. 
 
 ## Bookmarks
 As a primarily Chrome based workflow a lot of what RK does is based around the structure of the bookmarks he has and right-click -> Open All. As an example, fund managers are required to report on a quarterly basis all their holdings. So when that time comes he can browse all bookmarked funds quickly by Opening All, reading each one, then ctrl+W to close. 
