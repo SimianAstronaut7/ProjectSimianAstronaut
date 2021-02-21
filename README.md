@@ -8,7 +8,7 @@ Good data is out there but harder to find for non-professionals. You have to agg
 Please see the [FAQ](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/wiki/FAQ) if you have additional questions.
 
 ## Getting Started
-The current workflow is heavily Chrome based. Please follow the wiki [instructions](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/wiki/Chrome-Setup) to get started. 
+The current workflow is heavily Chrome based. Please follow the wiki [instructions](https://github.com/SimianAstronaut7/Project_Simian_Astronaut/wiki/Project-Setup) to get started. 
 
 ## Disclaimer
 I am not a financial professional. I am not endorsing any investment strategy. Personally, I  believe that if effort is invested it is possible to find stocks that have favorable risk/reward profiles. This may or may not be true. It is on individuals to make their own assessments. This project is for educational purposes only. 
