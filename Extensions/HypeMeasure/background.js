@@ -1,13 +1,8 @@
 var sites = ['alexa', 'google_trends', 'similiar_web', 'swaggy_stocks'];
-var test = "works";
-
 
 chrome.runtime.onInstalled.addListener(function () {
-    create_inactive_tab('https://swaggystocks.com/dashboard/wallstreetbets/ticker-sentiment', (tab)=>{
-        chrome.tabs.executeScript(tab.id, {
-            code: 'document.body.style.backgroundColor="red"'
-        });
-    });
+//Useful for quickly testing a piece of code w/o having to manually interact. 
+
 });
 
 

@@ -8,8 +8,9 @@
     "description": "Opens a number of resources to measure how much people are looking for the ticker.",
     "manifest_version": 2,
     "permissions": [
+      "activeTab",
+      "bookmarks",
         "storage",
-        "activeTab",
         "tabs",
         "https://finance.yahoo.com/",
         "https://swaggystocks.com/dashboard/wallstreetbets/ticker-sentiment/*"
