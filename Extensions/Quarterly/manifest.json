@@ -1,0 +1,17 @@
+{
+    "name": "Quarterly Checks",
+    "version": "1.0", 
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "description": "Opens the research that should be done on a quarterly basis. TODO: Look at adding an alarm/alert to this. ",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "bookmarks",
+        "storage",
+        "tabs"
+      ],
+      "omnibox": { "keyword" : "q" }
+  }
