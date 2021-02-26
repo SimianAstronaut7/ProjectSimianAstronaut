@@ -1,0 +1,24 @@
+{
+    "name": "ShortInterest",
+    "version": "1.0", 
+    "background": {
+        "scripts": ["jquery-3.5.1.min.js", "background.js"],
+        "persistent": false
+      },
+    "description": "Consolidates a number of sources onto a single page",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "bookmarks",
+        "storage",
+        "tabs",
+        "http://regsho.finra.org/*",
+        "https://fintel.io/ss/us/*",
+        "https://www.marketbeat.com/stocks/NYSE/*",
+        "https://iborrowdesk.com/report/*",
+        "https://www.finra.org/filing-reporting/regulatory-filing-systems/short-interest#overview"
+        
+      ],
+      "omnibox": { "keyword" : "si" }
+    
+  }
