@@ -1,5 +1,5 @@
 function get_quarterly_bookmarks() {
-    bookmarks_get_matches(/#quarterly/, (the_set) => {
+    bookmarks_get_matches(/#quarterly_generic/, (the_set) => {
         console.log(the_set);
 
     });
