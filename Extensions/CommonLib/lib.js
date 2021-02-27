@@ -34,7 +34,7 @@ function _bookmark_search(set, regex, arr, parent_had_tag) {
  * @param {*} search_regex - Example: /#quarterly/
  * @returns   set - All bookmarks matching the search
  */
-function get_quarterly_bookmarks(search_regex) {
+function bookmarks_get_matches(search_regex) {
     chrome.bookmarks.getTree(function (results) {
         var set = new Set();
         var regex = new RegExp(search_regex);
