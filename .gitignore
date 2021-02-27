@@ -2,3 +2,8 @@
 # Kind shitty, but the best way I've found so far for having background scripts get a library file w/o repeating code. 
 *lib.js
 !./Extensions/CommonLib/lib.js
+
+*jquery.min.js
+!./Extensions/CommonLib/jquery.min.js
+
+Extensions/Test/IFrame*
