@@ -31,7 +31,9 @@ function create_function_chain(ticker){
     v.push(create_chain_link(chained_webpull, 'https://www.finra.org/filing-reporting/regulatory-filing-systems/short-interest#overview', pull_finra_next_report_date));
     v.push(create_chain_link(chained_webpull, 'https://fintel.io/ss/us/' + ticker, pull_fintel));
     //TODO: Work in ETF indirect shorting
-    v.push(create_link('https://www.etf.com/stock/'+ ticker, pull_etfs));
+    //v.push(create_chain_link(chained_webpull, 'https://www.etf.com/stock/'+ ticker, pull_etfs));
+
+    //TODO: Marketbeat and iBorrow are dynamic sites. Require maybe creating a new tab + interacting w/ + removing once data pulled?
     // v.push(create_link('https://iborrowdesk.com/report/' + ticker, pull_iborrow));
     return v;
 }

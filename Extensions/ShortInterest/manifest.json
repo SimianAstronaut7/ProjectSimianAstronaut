@@ -2,14 +2,16 @@
     "name": "ShortInterest",
     "version": "1.0", 
     "background": {
-        "scripts": ["jquery.min.js", 
-          "lib.js",
-          "retrievers.js", 
+        "scripts": [
+          "lib/jquery.min.js", 
+          "lib/lib.js",
+          "util/retrievers.js", 
           "sites/finra_daily_report.js", 
           "sites/finra_next_report_date.js", 
           "sites/fintel.js", 
           "sites/iborrow.js", 
           "sites/marketbeat.js", 
+          "sites/etf_indirect_shorting.js",
           "background.js"],
         "persistent": false
       },

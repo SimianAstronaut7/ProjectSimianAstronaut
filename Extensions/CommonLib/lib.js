@@ -32,17 +32,15 @@ function _bookmark_search(set, regex, arr, parent_had_tag) {
  * Will search the 'title' of every bookmark in the bookmark tree
  * 
  * @param {*} search_regex - Example: /#quarterly/
- * @returns   set - All bookmarks matching the search
+ * @param {*} bookmark_processing_func - Callback that should have the signature: f(the_set){....}
  */
-function bookmarks_get_matches(search_regex) {
+function bookmarks_get_matches(search_regex, bookmark_processing_func) {
     chrome.bookmarks.getTree(function (results) {
         var set = new Set();
-        var regex = new RegExp(search_regex);
 
-        _bookmark_search(set, regex, results, false);
+        _bookmark_search(set, search_regex, results, false);
 
-        console.log(set);
-        return set;
+        bookmark_processing_func(set);
     });
 }
 

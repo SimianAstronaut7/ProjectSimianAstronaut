@@ -6,9 +6,9 @@
     # $ Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
 # Expected to be run in the context of the directory the script is in.
-$Folders = Get-Item ..\* | Where-Object {$_.Name -ne "CommonLib"}
+$Folders = Get-Item ..\* | Where-Object {$_.Name -ne "CommonLib"} | Where-Object {$_.Name -ne "Test"}
 
 foreach ($Folder in $Folders) {
-    Copy-Item .\lib.js $Folder
-    Copy-Item .\jquery.min.js $Folder
+    Copy-Item .\lib.js ($Folder.FullName + "\lib\")
+    Copy-Item .\jquery.min.js ($Folder.FullName + "\lib\")
 }
