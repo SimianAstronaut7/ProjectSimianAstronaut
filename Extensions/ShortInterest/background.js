@@ -30,7 +30,8 @@ function create_function_chain(ticker){
     v.push(create_chain_link(chained_webpull, 'http://regsho.finra.org/regsho-Index.html', pull_finra_report_name));
     v.push(create_chain_link(chained_webpull, 'https://www.finra.org/filing-reporting/regulatory-filing-systems/short-interest#overview', pull_finra_next_report_date));
     v.push(create_chain_link(chained_webpull, 'https://fintel.io/ss/us/' + ticker, pull_fintel));
-    // v.push(create_link('https://www.marketbeat.com/stocks/NYSE/'+ ticker +'/short-interest/', pull_market_beat));
+    //TODO: Work in ETF indirect shorting
+    v.push(create_link('https://www.etf.com/stock/'+ ticker, pull_etfs));
     // v.push(create_link('https://iborrowdesk.com/report/' + ticker, pull_iborrow));
     return v;
 }
