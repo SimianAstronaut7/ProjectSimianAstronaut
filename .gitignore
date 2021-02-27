@@ -1,3 +1,4 @@
-*/lib.js
-
+# We distribute the CommonLib out to the extensions, but they only have one source. Don't save changes to anything but that source. 
+# Kind shitty, but the best way I've found so far for having background scripts get a library file w/o repeating code. 
+*lib.js
 !./Extensions/CommonLib/lib.js
