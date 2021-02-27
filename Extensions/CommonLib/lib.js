@@ -45,3 +45,16 @@ function bookmarks_get_matches(search_regex) {
         return set;
     });
 }
+
+function create_inactive_tab(url) {
+    create_inactive_tab(url, (tab) => { });
+}
+
+function create_inactive_tab(url, success_func) {
+    chrome.tabs.create({
+        "url": url,
+        "active": false
+    },
+        success_func
+    );
+}
