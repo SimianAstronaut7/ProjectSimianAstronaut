@@ -2,7 +2,10 @@
     "name": "Quarterly Checks",
     "version": "1.0", 
     "background": {
-        "scripts": ["lib/lib.js", "background.js"],
+        "scripts": [
+          "lib/constants.js",
+          "lib/lib.js",
+          "background.js"],
         "persistent": false
       },
     "description": "Opens the research that should be done on a quarterly basis. TODO: Look at adding an alarm/alert to this. ",

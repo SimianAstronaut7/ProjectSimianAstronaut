@@ -1,19 +1,28 @@
-
-chrome.runtime.onInstalled.addListener(function () {
 //Useful for quickly testing a piece of code w/o having to manually interact. 
+chrome.runtime.onInstalled.addListener(function () {
+    // open_all_short_interest_template_bookmarks('gme');
 
-    // open_all_short_interest_template_bookmarks();
-
-    pull_short_interest_raw_data("gme");
+    // pull_short_interest_raw_data("gme");
 });
 
 chrome.omnibox.onInputEntered.addListener(function (ticker) {
-    pull_short_interest_raw_data(ticker);
+    open_all_short_interest_template_bookmarks(ticker);
 });
 
-function open_all_short_interest_template_bookmarks(){
-    var bookmark_template_set = bookmarks_get_matches(/#quarterly/);
-    console.log(v);
+function open_all_short_interest_template_bookmarks(ticker){
+    var bookmark_template_set = bookmarks_get_matches(/#short_interest_templated/, (the_set)=>{
+        for (var s of the_set){
+            var url = s.replace(TEMPLATE_REPLACEMENT_STRING, ticker);
+            try{
+                //Validate URL before passing to Chrome.
+                new URL(url);
+                create_inactive_tab(url);
+            }
+            catch(err){
+                console.error("Bad url passed via Bookmarks: " + url);
+            }
+        }
+    });
 }
 
 function pull_short_interest_raw_data(ticker){

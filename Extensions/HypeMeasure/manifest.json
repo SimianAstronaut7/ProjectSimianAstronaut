@@ -2,7 +2,11 @@
     "name": "MeasuringHype",
     "version": "1.0", 
     "background": {
-        "scripts": ["lib/jquery.min.js", "background.js"],
+        "scripts": [
+          "lib/jquery.min.js",
+          "lib/constants.js",
+          "lib/lib.js",
+          "background.js"],
         "persistent": false
       },
     "description": "Opens a number of resources to measure how much people are looking for the ticker.",

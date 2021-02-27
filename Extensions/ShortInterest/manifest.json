@@ -4,6 +4,7 @@
     "background": {
         "scripts": [
           "lib/jquery.min.js", 
+          "lib/constants.js",
           "lib/lib.js",
           "util/retrievers.js", 
           "sites/finra_daily_report.js", 

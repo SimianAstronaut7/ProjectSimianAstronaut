@@ -11,4 +11,5 @@ $Folders = Get-Item ..\* | Where-Object {$_.Name -ne "CommonLib"} | Where-Object
 foreach ($Folder in $Folders) {
     Copy-Item .\lib.js ($Folder.FullName + "\lib\")
     Copy-Item .\jquery.min.js ($Folder.FullName + "\lib\")
+    Copy-Item .\constants.js ($Folder.FullName + "\lib\")
 }

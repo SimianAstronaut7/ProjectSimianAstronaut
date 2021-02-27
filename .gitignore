@@ -6,4 +6,7 @@
 *jquery.min.js
 !./Extensions/CommonLib/jquery.min.js
 
+*constants.js
+!./Extensions/CommonLib/constants.js
+
 Extensions/Test/IFrame*
