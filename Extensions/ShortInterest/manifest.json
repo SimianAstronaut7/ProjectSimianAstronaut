@@ -2,7 +2,15 @@
     "name": "ShortInterest",
     "version": "1.0", 
     "background": {
-        "scripts": ["jquery.min.js", "lib.js", "background.js"],
+        "scripts": ["jquery.min.js", 
+          "lib.js",
+          "retrievers.js", 
+          "sites/finra_daily_report.js", 
+          "sites/finra_next_report_date.js", 
+          "sites/fintel.js", 
+          "sites/iborrow.js", 
+          "sites/marketbeat.js", 
+          "background.js"],
         "persistent": false
       },
     "description": "Consolidates a number of sources onto a single page",
