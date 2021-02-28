@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Annoying fixed position banner taking up valuable real estate.
 // @author       You
-// @match        https://markets.businessinsider.com/news/stocks/*
+// @match        https://*.businessinsider.com/*
 // @grant        none
 // ==/UserScript==
 
