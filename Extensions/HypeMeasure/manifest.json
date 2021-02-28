@@ -1,6 +1,11 @@
 {
     "name": "MeasuringHype",
-    "version": "1.0", 
+    "version": "1.0",
+    "icons": { 
+      "16": "img/happy16.png",
+      "48": "img/happy48.png",
+     "128": "img/happy128.png" 
+    },
     "background": {
         "scripts": [
           "lib/jquery.min.js",

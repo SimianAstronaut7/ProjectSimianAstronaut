@@ -1,6 +1,11 @@
 {
     "name": "ShortInterest",
-    "version": "1.0", 
+    "version": "1.0",
+    "icons": { 
+      "16": "img/snake16.png",
+      "48": "img/snake48.png",
+      "128": "img/snake128.png" 
+    },
     "background": {
         "scripts": [
           "lib/jquery.min.js", 

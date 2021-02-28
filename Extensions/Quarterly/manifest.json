@@ -1,6 +1,11 @@
 {
     "name": "Quarterly Checks",
-    "version": "1.0", 
+    "version": "1.0",
+    "icons": { 
+      "16": "img/quarter16.png",
+      "48": "img/quarter48.png",
+      "128": "img/quarter128.png" 
+    },
     "background": {
         "scripts": [
           "lib/constants.js",
