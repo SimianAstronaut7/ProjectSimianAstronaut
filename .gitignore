@@ -10,3 +10,5 @@
 !./Extensions/CommonLib/constants.js
 
 Extensions/Test/IFrame*
+Extensions/Test/react-extension/build*
+Extensions/Test/get_started_complete*

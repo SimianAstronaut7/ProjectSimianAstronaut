@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+  
+    "name": "React + Chrome Extension",
+    "description": "This extension is a starting point to create a real Chrome extension w/ React",
+    "version": "0.0.1",
+  
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_title": "Open the popup"
+    },
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+}
