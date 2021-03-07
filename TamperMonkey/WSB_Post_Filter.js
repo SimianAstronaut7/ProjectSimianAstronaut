@@ -24,6 +24,8 @@ function post_is_GME(post_ele){
 (function() {
     'use strict';
     //Pretty lazy. Not sure how to tell when scrolling has loaded new posts. Just poll every 2 seconds removing GME.
+    // TODO: Possible improvements: https://stackoverflow.com/questions/3219758/detect-changes-in-the-dom
+    //                              https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
     setInterval(()=> {
         var posts = document.querySelector("#SHORTCUT_FOCUSABLE_DIV > div:nth-child(4) > div > div > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(4)").children;
 
