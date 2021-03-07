@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Remove several annoying banners
 // @author       You
-// @match        https://www.bloomberg.com/news/articles/*
+// @match        https://www.bloomberg.com/*
 // @grant        none
 // ==/UserScript==
 var top_banner=false;
